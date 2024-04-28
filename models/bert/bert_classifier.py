@@ -107,8 +107,10 @@ class TextClassificationPipeline:
 
 
 if  __name__ == "__main__":
+
     pipeline = TextClassificationPipeline(data_source='web_of_science', dataset_id='WOS5736')
     pipeline.load_and_prepare_data()
     pipeline.apply_tokenization()
-    pipeline.load_model()
+    pipeline.train_model()
     pipeline.evaluate_model()
+    pipeline.save_model()
