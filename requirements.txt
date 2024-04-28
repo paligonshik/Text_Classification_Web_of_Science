@@ -1,5 +1,7 @@
 tomli==2.0.1
 datasets~=2.19.0
 transformers
-#accelerate -U
+loguru
+accelerate~=0.29.3
+
 
