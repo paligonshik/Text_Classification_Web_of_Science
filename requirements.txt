@@ -3,5 +3,6 @@ datasets~=2.19.0
 transformers
 loguru
 accelerate~=0.29.3
-
+torchtext
+scikit-learn
 
